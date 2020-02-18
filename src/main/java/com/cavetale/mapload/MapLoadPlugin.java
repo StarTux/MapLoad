@@ -1,4 +1,4 @@
-package com.cavetale.test;
+package com.cavetale.mapload;
 
 import com.google.gson.Gson;
 import java.io.File;
