@@ -107,6 +107,10 @@ public final class MapLoadPlugin extends JavaPlugin {
         WorldBorder border = world.getWorldBorder();
         Location center = border.getCenter();
         double size = border.getSize() * 0.5;
+        if (size > 100000) {
+            getLogger().warning("World too large!");
+            return;
+        }
         double cx = center.getX();
         double cz = center.getZ();
         int ax = (int) Math.floor(cx - size);

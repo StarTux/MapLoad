@@ -1,19 +1,27 @@
 main: com.cavetale.mapload.MapLoadPlugin
 name: MapLoad
+
 version: 0.1
-api-version: 1.13
+api-version: 1.17
+
 description: Load each chunk of a world once.
 author: StarTux
 website: https://cavetale.com
+
 depend: []
 softdepend: []
+
 commands:
+
   mapload:
     aliases: []
     description: MapLoad Command
     permission: mapload.mapload
-    usage: /mapload
+    usage: |-
+      /mapload [world] - Begin loading world
+
 permissions:
+
   mapload.mapload:
     description: Use /mapload
     default: op
