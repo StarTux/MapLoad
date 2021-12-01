@@ -18,7 +18,3 @@ worlds or modify all chunks in some other way.
 
 - `plugins/MapLoad/state.json`: The serialized state of chunk loading.
   Will be deleted once the process is complete.
-
-## Shortcomings
-
-Only one world can be done at a time.
