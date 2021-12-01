@@ -18,7 +18,8 @@ commands:
     description: MapLoad Command
     permission: mapload.mapload
     usage: |-
-      /mapload [world] - Begin loading world
+      /mapload info - Info
+      /mapload start [world] - Begin loading world
 
 permissions:
 
