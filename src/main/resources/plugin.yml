@@ -2,7 +2,7 @@ main: com.cavetale.mapload.MapLoadPlugin
 name: MapLoad
 
 version: 0.1
-api-version: 1.17
+api-version: '1.21'
 
 description: Load each chunk of a world once.
 author: StarTux
